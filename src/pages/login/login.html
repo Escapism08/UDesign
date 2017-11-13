@@ -1,0 +1,35 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="background-adjustments" >
+
+</ion-header>
+
+
+<ion-content padding-top text-center class="background-adjustments margin-bottom">
+	<ion-img style="margin-top:30px;" class="background-adjustments" width="80" height="80" src="../assets/imgs/Logo.png"></ion-img>
+
+  <ion-item class="background-adjustments" padding>
+    <ion-label floating>Username</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item class="background-adjustments" padding>
+    <ion-label floating>Password</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+
+
+<p text-right padding-bottom padding style="font-size: 10px;">Forgot your password?</p>
+
+<button ion-button block class="adjust-button" (click)="GoToHome()">SIGN IN</button>
+
+<p text-center>OR</p>
+<button ion-button block class="adjust-button red-color"(click)="GoToHome()">  <ion-icon padding-right name="logo-google"></ion-icon> LOGIN USING GOOGLE</button>
+
+<p style="text-decoration: underline;" (click)="GoToSignup()">Create an account</p>
+
+</ion-content>

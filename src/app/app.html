@@ -1,16 +1,20 @@
 <ion-menu [content]="content">
-  <ion-header>
-    <ion-toolbar>
-      <ion-title>Menu</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <ion-content>
+
+  <ion-content style="background-color:rgba(32,95,118,.7) !important;">
+           <ul class="list" style="padding-left:0px">
+          <div class="item item-avatar" style="text-align: center;">
+            <img style="width: 100px; margin:0 auto;" src="../assets/imgs/woman.png">
+            <h2 style="color: white;">Maira Osama</h2>
+            <p style="color: white;">You only live once</p>
+          </div>
+        </ul>
     <ion-list>
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+      <button style="background-color: rgba(32,95,118,.7); color: white;" menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
         {{p.title}}
       </button>
     </ion-list>
+
   </ion-content>
 
 </ion-menu>

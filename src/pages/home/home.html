@@ -1,18 +1,145 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar style="background-color: #205f76">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title style="background-color: #205f76;padding:0px">   <ion-icon float-right padding name="cart"></ion-icon><ion-icon float-right padding name="notifications"></ion-icon><ion-icon float-right padding name="search"></ion-icon>
+  </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+<ion-content >
+  <ion-slides pager style="height: 300px;">
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+  <ion-slide>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+      <div class="overlay"></div>
+
+    <img src="../assets/imgs/1.jpg">
+
+        <ion-title >
+<p style="color:white;font-size: 40px;text-align: left;margin-top: -213px;display: block;position: absolute;float: left;padding-left: 20px;">NEW <br>ARRIVALS</p>
+<p style="color:white;font-size: 10px;text-align: left;margin-top: -113px;display: block;position: absolute;float: left;padding-left: 20px;">200+ New Items</p>
+<img src="../assets/imgs/Logo.png" style="
+    width: 54px;
+    text-align: left;
+    float: left;
+    padding-left: 20px;
+">
+    </ion-title>
+  </ion-slide>
+
+  <ion-slide>
+      <div class="overlay"></div>
+
+<img src="../assets/imgs/2.jpeg">  
+  </ion-slide>
+  <ion-slide >
+  <div class="overlay"></div>
+<img  src="../assets/imgs/1.jpg"> 
+
+ </ion-slide>
+
+</ion-slides>
+<ion-card>
+
+ 
+
+  <ion-card-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-3>
+
+<div class="circle">IKEA</div>
+<h5 style="margin:0 auto;/* text-align: center; */width: 80%;">Ikea</h5>
+
+        </ion-col >
+        <ion-col col-3>
+<div class="circle">In&Out</div>
+<h5 style="margin:0 auto;/* text-align: center; */width: 80%;">In&Out</h5>
+        </ion-col>
+        <ion-col col-3>
+<div class="circle">Marche</div>
+<h5 style="margin:0 auto;/* text-align: center; */width: 80%;">Marche</h5>
+
+
+        </ion-col>
+        <ion-col col-3>
+<div class="circle">Furni</div>
+<h5 style="margin:0 auto;/* text-align: center; */width: 80%;">Furni</h5>
+
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card-content>
+
+</ion-card>
+
+
+<ion-card>
+
+
+
+  <ion-card-content style="padding:0px; margin:0 auto;">
+   <img src="../assets/imgs/ad.jpg">
+  </ion-card-content>
+
+</ion-card>
+
+
+<h1 text-left padding style="color:#0058b6">Top Selling</h1>
+
+<ion-grid>
+  <ion-row>
+    <ion-col col-6>
+      <ion-card>
+    
+      
+        <ion-card-content>
+      <img style="width: 127px; margin:0 auto;" src="../assets/imgs/kitchen.png">
+        </ion-card-content>
+        <ion-title>
+        Kitchen Appliances
+        </ion-title>
+      
+      </ion-card>
+    </ion-col>
+    <ion-col col-6>
+      <ion-card>
+        <ion-card-content>
+      <img style="width: 87px; margin:0 auto;" src="../assets/imgs/qe.png">
+        </ion-card-content>
+        <ion-title>
+    Sofas        
+        </ion-title>
+      
+      </ion-card>
+    </ion-col>
+  </ion-row>
+    <ion-row>
+    <ion-col col-6>
+            <ion-card>
+        <ion-card-content>
+      <img style="width: 70px; margin:0 auto;" src="../assets/imgs/i.png">
+        </ion-card-content>
+        <ion-title>
+          Bathroom       
+        </ion-title>
+      
+      </ion-card>
+    </ion-col>
+    <ion-col col-6>
+                  <ion-card>
+        <ion-card-content>
+      <img style="width: 104px; margin:0 auto;" src="../assets/imgs/i.png" src="../assets/imgs/chair.png">
+        </ion-card-content>
+        <ion-title>
+          Chairs       
+        </ion-title>
+      
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
 </ion-content>
