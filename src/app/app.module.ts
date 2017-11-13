@@ -10,7 +10,11 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import {LoginPage } from '../pages/login/login';
 import { SignupPage } from '../pages/signup/signup';
-import { BrandsPage } from '../pages/brands/brands';
+import { SearchPage } from '../pages/search/search';
+import { NotificationPage } from '../pages/notification/notification';
+import { CartPage } from '../pages/cart/cart';
+
+
 
 
 @NgModule({
@@ -20,7 +24,9 @@ import { BrandsPage } from '../pages/brands/brands';
     ListPage,
     LoginPage,
     SignupPage,
-    BrandsPage
+    SearchPage,
+    NotificationPage,
+    CartPage
   ],
   imports: [
     BrowserModule,
@@ -33,7 +39,9 @@ import { BrandsPage } from '../pages/brands/brands';
     ListPage,
     LoginPage,
     SignupPage,
-    BrandsPage
+    SearchPage,
+    NotificationPage,
+    CartPage
   ],
   providers: [
     StatusBar,
